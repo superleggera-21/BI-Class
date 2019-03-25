@@ -44,9 +44,9 @@ trip_cost_with_spending('Tampa',21,1200)
 
 
 def trip_cost_with_spending_manual():
-    city = input('Which city are you going?')
-    days = int(input('How many days will the vacation be?'))
-    spending_money = int(input('How much money will you bring?'))
+    city = input('Which city are you going? ')
+    days = int(input('How many days will the vacation be? '))
+    spending_money = int(input('How much money will you bring? '))
     cost = plane_ride_cost(city)+rental_car_cost(days)+hotel_cost(days)+spending_money
     print('The total cost of the trip is '+str(cost)+' dollars.')
 
