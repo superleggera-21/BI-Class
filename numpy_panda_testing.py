@@ -7,6 +7,7 @@ import pandas as pd
 import os
 print(os.getcwd())
 df = pd.read_csv('Salaries.csv')
+
 # print(df.head(30))
 # print(df['salary'].dtype)
 # print(df.dtypes)
